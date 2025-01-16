@@ -49,6 +49,7 @@ add_executable(patterns main.cpp
         src/structure/composite/neural_networks.h
         src/structure/composite/array_backed_properties.h
         src/structure/decorator/functional_decorator.h
+        src/structure/feightweight.h
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE Boost::filesystem Boost::lexical_cast Boost::serialization)
